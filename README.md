@@ -68,4 +68,4 @@ Trong môi trường live, chạy:
 
 ./setup.sh
 
-### If you want dual boot, please read [The Manual]
+### If you want dual boot, please do not use this script for your archiso
