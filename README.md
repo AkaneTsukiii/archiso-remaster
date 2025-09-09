@@ -23,14 +23,14 @@ This package provides a script to **remaster the official Arch Linux ISO** with 
    `chmod +x remaster-archiso.sh
    ./remaster-archiso.sh`
 
-	3.	After completion, you will get a new ISO file:
+3.	After completion, you will get a new ISO file:
 
-arch_custom.iso
+`arch_custom.iso`
 
 
-	4.	Flash the ISO to a USB stick or boot it in a VM.
+4.	Flash the ISO to a USB stick or boot it in a VM.
 Inside the live environment, run:
 
-./setup.sh
+`./setup.sh`
 
 ### If you want dual boot, please do not use this script for your archiso
