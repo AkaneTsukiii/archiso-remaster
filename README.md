@@ -20,9 +20,8 @@ This package provides a script to **remaster the official Arch Linux ISO** with 
    - `setup.sh`
 
 2. Run the script:
-   ```bash
-   chmod +x remaster-archiso.sh
-   ./remaster-archiso.sh
+   `chmod +x remaster-archiso.sh
+   ./remaster-archiso.sh`
 
 	3.	After completion, you will get a new ISO file:
 
@@ -31,40 +30,6 @@ arch_custom.iso
 
 	4.	Flash the ISO to a USB stick or boot it in a VM.
 Inside the live environment, run:
-
-./setup.sh
-
-Tiếng Việt
-
-Gói này cung cấp một script để remaster ISO Arch Linux chính thức với các tùy chỉnh sau:
-	-	Chèn script cài đặt (setup.sh) và hướng dẫn (Manual.md) vào /root/ trong ISO.
-	-	Bật sẵn nomodeset trong các bootloader (GRUB, syslinux, systemd-boot) để tránh lỗi màn hình đen trên một số GPU.
-	-	Xuất ra file ISO mới tên là arch_custom.iso.
-
-Yêu cầu
-  - Ổ cứng sạch (không hỗ trợ dual boot)
-	-	arch.iso (ISO Arch Linux gốc) đặt cùng thư mục với gói này.
-	-	Công cụ: xorriso, squashfs-tools, util-linux (để mount ISO).
-	-	Quyền root (để mount và chỉnh sửa ISO).
-
-Cách sử dụng
-	1.	Đặt các file sau cùng một thư mục:
-	-	arch.iso (ISO gốc của Arch - Đổi tên thành arch.iso)
-	-	remaster-archiso.sh
-	-	setup.sh
-	2.	Chạy script:
-
-chmod +x remaster-archiso.sh
-./remaster-archiso.sh
-
-
-	3.	Sau khi hoàn tất, sẽ có file ISO mới:
-
-arch_custom.iso
-
-
-	4.	Ghi ISO ra USB hoặc boot trên VM.
-Trong môi trường live, chạy:
 
 ./setup.sh
 
